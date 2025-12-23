@@ -4204,7 +4204,7 @@ elif # User didn't provide --with-zstd at all, or provided --with-zstd without
 then :
   { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for ZSTD_decompress in -lzstd" >&5
 printf %s "checking for ZSTD_decompress in -lzstd... " >&6; }
-if test ${ac_cv_lib_zstd_ZSTD_decompress+y}
+if 1
 then :
   printf %s "(cached) " >&6
 else $as_nop
@@ -4237,7 +4237,7 @@ LIBS=$ac_check_lib_save_LIBS
 fi
 { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: $ac_cv_lib_zstd_ZSTD_decompress" >&5
 printf "%s\n" "$ac_cv_lib_zstd_ZSTD_decompress" >&6; }
-if test "x$ac_cv_lib_zstd_ZSTD_decompress" = xyes
+if test 1
 then :
   with_zstd=""
 
